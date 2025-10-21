@@ -7,7 +7,7 @@ from sqlalchemy import create_engine, Column, Integer, String
 from sqlalchemy.orm import declarative_base, sessionmaker, Session
 
 # Database configuration
-DATABASE_URL = "postgresql://admin:admin@localhost:5432/mydb"  # Change if using ElephantSQL
+DATABASE = "https://friendly-spoon-gvjxvq49j5xcpj7-5175.app.github.dev/"
 
 engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
