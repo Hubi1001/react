@@ -1,0 +1,6 @@
+2025-10-22 07:55:04.453 UTC [8670] LOG:  starting PostgreSQL 15.7 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 12.3.0, 64-bit
+2025-10-22 07:55:04.455 UTC [8670] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2025-10-22 07:55:04.460 UTC [8670] FATAL:  could not create lock file "/run/postgresql/.s.PGSQL.5432.lock": No such file or directory
+2025-10-22 07:55:04.469 UTC [8670] LOG:  database system is shut down
+2025-10-22 08:08:43.555 UTC [11686] FATAL:  database files are incompatible with server
+2025-10-22 08:08:43.555 UTC [11686] DETAIL:  The data directory was initialized by PostgreSQL version 14, which is not compatible with this version 15.7.
